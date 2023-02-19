@@ -77,9 +77,15 @@ header{
         height: 70vh;
         justify-content: flex-start;
         overflow: scroll;
+        position: relative;
+        top: 10px;
     }
     
     .galeria{
         min-width: 90% !important;
+    }
+    .galeria:hover .single-galeria:first-child{
+        width: 280px !important;
+        height: 100%;
     }
 }
